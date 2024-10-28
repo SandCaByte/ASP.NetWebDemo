@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cmsan\\Documents\\GitHub\\ASP.NetWebDemo\\ASP.NetWebDemo\\ASP.NetWebDemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASP.NetWebDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASP.NetWebDemo.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\cmsan\\Documents\\GitHub\\ASP.NetWebDemo\\ASP.NetWebDemo\\ASP.NetWebDemo\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\cmsan\\Documents\\GitHub\\ASP.NetWebDemo\\ASP.NetWebDemo\\ASP.NetWebDemo\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cmsan\\Documents\\GitHub\\ASP.NetWebDemo\\ASP.NetWebDemo\\ASP.NetWebDemo\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cmsan\\Documents\\GitHub\\ASP.NetWebDemo\\ASP.NetWebDemo\\ASP.NetWebDemo\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASP.NetWebDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ASP.NetWebDemo.props",
+      "PackagePath": "build\\ASP.NetWebDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ASP.NetWebDemo.props",
+      "PackagePath": "buildMultiTargeting\\ASP.NetWebDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ASP.NetWebDemo.props",
+      "PackagePath": "buildTransitive\\ASP.NetWebDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

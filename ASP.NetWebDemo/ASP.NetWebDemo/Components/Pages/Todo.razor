@@ -1,0 +1,41 @@
+﻿@page "/todo"
+@rendermode InteractiveServer
+
+<h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
+
+<ul>
+    @foreach (var todo in todos)
+    {
+        //Render list item
+        <li>
+            <!--CheckBox-->
+            <input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Title" />
+        </li>
+    }
+</ul>
+
+<!--Input for adding new items to list-->
+<input @bind="newTodo" />
+<button @onclick="AddTodo">Add todo</button>
+
+@code {
+    //List of todo objects
+    private List<TodoItem> todos = new();
+    //Store input as string
+    string newTodo = "";
+
+    //Function for adding new list items
+    void AddTodo()
+    {
+        //Check if the string is valid
+        if (!string.IsNullOrEmpty(newTodo))
+        {
+            //Add a new TodoItem object to the list
+            //sets the title of the object to the inputed string
+            todos.Add(new TodoItem { Title = newTodo });
+            //Set the input string back to empty
+            newTodo = string.Empty;
+        }
+    }
+}
